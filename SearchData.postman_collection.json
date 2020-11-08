@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "da8988fb-6f59-46b1-bff2-338a9d3b9621",
+		"name": "SearchData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4350/api/search_query/star",
+					"host": [
+						"localhost"
+					],
+					"port": "4350",
+					"path": [
+						"api",
+						"search_query",
+						"star"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
